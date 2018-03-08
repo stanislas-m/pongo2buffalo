@@ -1,6 +1,8 @@
 Pongo2Buffalo
 =============
 
+[![Build Status](https://travis-ci.org/stanislas-m/pongo2buffalo.svg)](https://travis-ci.org/stanislas-m/pongo2buffalo)
+
 An adapter to use [Pongo2](https://github.com/flosch/pongo2) with [Buffalo](https://github.com/gobuffalo/buffalo).
 
 Usage
