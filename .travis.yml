@@ -1,0 +1,18 @@
+language: go
+
+dist: trusty
+
+go:
+  - 1.8
+  - 1.9
+  - "1.10"
+  - tip
+
+install:
+ - go get -t -v ./...
+
+script: go test ./... -v
+
+matrix:
+  allow_failures:
+    - go: 'tip'
